@@ -6,16 +6,12 @@
     <title>HOME</title>
     <link rel="stylesheet" href="src/home/css/body/body.css">
     <link rel="stylesheet" href="src/StyleGeral/style.css">
-
     <link rel="stylesheet" href="src/home/css/header/header.css">
     <link rel="stylesheet" href="src/home/css/homePageResponsive.css">
-
     <link rel="stylesheet" href="src/home/css/inicio/Inicio.css">
     <link rel="stylesheet" href="src/home/css/inicio/inicioResposnivo.css">
-
     <link rel="stylesheet" href="src/home/css/artista-semana/ArtistasSemana.css">
     <link rel="stylesheet" href="src/home/css/artista-semana/ArtistaSemanaResponsivo.css">
-
     <link rel="stylesheet" href="src/home/css/ArtistasNew/artistasNew.css">
     <link rel="stylesheet" href="src/home/css/ArtistasNew/artistasNewResponsivo.css">
     <link rel="stylesheet" href="src/home/css/present-arage-pro.css">
@@ -25,32 +21,31 @@
 </head>
 <body>
     <header>
-    <section class="header-superior">
-        <nav class="nav-bar">
-            <div class="logo"> 
-                <a href="index.html"><strong>ARAGE</strong></a>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="/" class="nav-link">ALBUNS</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">ARTISTA</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">MUSICAS</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">COMENTARIOS</a></li>
-                </ul>
-            </div>
-            <div class="login-btn">
-                <button><a href="">ENTRAR</a></button>
-            </div>
-
-            <div class="mobile-menu-icon">
-                <button onclick="mobileMenu()">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </button>
-            </div>
-        </nav>
-    </section>
+        <section class="header-superior">
+            <nav class="nav-bar">
+                <div class="logo">
+                    <a href="index.html"><strong>ARAGE</strong></a>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="/" class="nav-link">ALBUNS</a></li>
+                        <li class="nav-item"><a href="/" class="nav-link">ARTISTA</a></li>
+                        <li class="nav-item"><a href="/" class="nav-link">MUSICAS</a></li>
+                        <li class="nav-item"><a href="/" class="nav-link">COMENTARIOS</a></li>
+                    </ul>
+                </div>
+                <div class="login-btn">
+                    <button><a href="">ENTRAR</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="mobileMenu()">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </button>
+                </div>
+            </nav>
+        </section>
         <div class="mobile-menu" id="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="#">ALBUNS</a></li>
@@ -63,8 +58,8 @@
             </div>
         </div>
     </header>
+
     <main>
-        <!-- progrededindo -->
         <section class="home">
             <article class="inicio-lateral-esquerda">
                 <div id="Titulo-lateral-esquerda" class="inicio-esquerda">
@@ -76,9 +71,10 @@
                 </div>
             </article>
             <article class="inicio-lateral-direita">
-                    <img src="src/component-img/img-logos/arage_sem_fundo.png" alt="ARAGE" id="logo-arage">
+                <img src="src/component-img/img-logos/arage_sem_fundo.png" alt="ARAGE" id="logo-arage">
             </article>
         </section>
+
         <section class="artistas-semana">
             <div class="titulo-section">
                 <h1><strong>Artista da Semana</strong></h1>
@@ -87,7 +83,6 @@
                 <article class="container-img" id="artista1">
                     <div class="img-artista">
                         <img src="src/home/components/img-cantores/the_weeknd.jfif" alt="The weeknd" class="img-week" id="pessoa1">
-                        
                         <div class="description-artista">
                             <h2><strong>THE WEEKND</strong></h2>
                             <p>popular</p>
@@ -112,14 +107,13 @@
                         </div>
                     </div>
                 </article>
-        </section>
+            </section>
             <div class="button-home">
                 <button class="btn-home" id="btn-confira"><a href=""><strong>CONFIRA</strong></a></button>
             </div>
         </section>
-        <!-- progredidno -->
-         <!-- slides -->
-         <section class="mobile-artistas-semana">
+
+        <section class="mobile-artistas-semana">
             <nav class="slides">
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
@@ -133,7 +127,6 @@
                 <div class="slide tres">
                     <img src="src/home/components/img-cantores/justin.jfif" alt="imagem 1" id="img-3">
                 </div>
-                <!-- fim slides -->
                 <div class="navigation-auto">
                     <div class="auto-btn1"></div>
                     <div class="auto-btn2"></div>
@@ -145,10 +138,10 @@
                 <label for="radio2" class="manual-btn"></label>
                 <label for="radio3" class="manual-btn"></label>
             </div>
-
         </section>
 
         <br>
+
         <section class="artista-new">
             <article class="new-artista-esquerda">
                 <div class="text-new-artista">
@@ -171,6 +164,7 @@
                 <img src="src/home/components/img-cantores/hwasa.jfif" alt="hwasa" id="new-artista-img">
             </article>
         </section>
+
         <section class="present-arage-pro">
             <article class="present-arage-esquerda">
                 <h1><strong>Arage PRO</strong></h1>
@@ -183,7 +177,7 @@
                     utilize o serviço mesmo sem conexão à internet, e <br>
                     funcionalidades exclusivas, que tornam a experiência mais <br>
                     personalizada e eficiente.
-                    </p>
+                </p>
             </article>
             <article class="present-arage-direita">
                 <div>
@@ -191,9 +185,10 @@
                 </div>
             </article>
         </section>
+
         <section class="buy-arage-pro">
             <article class="buy-arage-pro-esquerda">
-                    <div>    
+                <div>
                     <h1><strong>
                         Cadastre-se e <br>
                         ganhe 1 mês de <br>
@@ -204,11 +199,27 @@
                     <button class="btn-home"><a href="/"><strong>Cadastre-se</strong></a></button>
                 </div>
             </article>
-            <!-- <article class="buy-arage-pro-esquerda">
-                <img src="src/component-img/img-logos/arage-pro-2.jpg" alt="">
-            </article> -->
         </section>
     </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- <footer>
         <article class="contato-titulo">
             <h1><strong>Entre em contato</strong></h1>

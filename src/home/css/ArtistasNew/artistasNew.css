@@ -1,4 +1,4 @@
-.artista-new{
+/* .artista-new{
     display: flex;
     position: relative;
     width: 100%;
@@ -7,17 +7,20 @@
 .artista-new article{
     width: 50%;
     border: 3px solid black;
+    text-align: center;
 }
 .new-artista-esquerda{
     text-align: justify;
 }
 .text-new-artista{
     width: 100%;
-    height: 60%;
+    height: 30%;
     display: block;
     justify-content: center;
     align-items: center;
-    align-items: center;
+    margin-top: 170px;
+    text-align: center;
+    
 
 }  
 .button-new-artista{
@@ -36,3 +39,80 @@
     font-size: 1rem;
     padding: 0 15% 0;
 }
+#new-artista-img{
+    border-radius: 0 15% 0 0;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin-top: 40px;
+}
+#nome-artista-hwasa{
+    text-align: left;
+    margin-left: 94px;
+    margin-top: 60px;
+} */
+
+.artista-new {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os artigos se empilhem em telas menores */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.artista-new article {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Garante que padding seja incluído no tamanho total do elemento */
+}
+
+.new-artista-esquerda {
+    text-align: justify;
+    padding: 20px;
+}
+
+.text-new-artista {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px; /* Reduzido para mais responsividade */
+}
+
+.button-new-artista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.new-artista-esquerda .text-new-artista > h1 {
+    text-align: center;
+}
+
+.text-new-artista > p {
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    font-size: 1rem;
+    padding: 0 10%; /* Reduzido para evitar excesso de margem lateral em telas menores */
+}
+
+#new-artista-img {
+    border-radius: 0 15% 0 0;
+    width: 70%;
+    height: auto; /* Ajusta automaticamente a altura da imagem mantendo a proporção */
+    margin-top: 20px;
+}
+
+#nome-artista-hwasa {
+    text-align: left;
+    margin-left: 10%; /* Diminuído para responsividade */
+    margin-top: 20px;
+}
+
+
